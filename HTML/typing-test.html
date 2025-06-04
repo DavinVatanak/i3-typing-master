@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="typing-test.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Typing Master</h1>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="test-results.html">My Results</a>
+            <a href="about.html">About Us</a>
+            <a href="login.html">Logout</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="test-box">
+            <div class="test-info">
+                <div class="timer">Time: <span id="time">60</span>s</div>
+                <div class="wpm">WPM: <span id="wpm">0</span></div>
+                <div class="accuracy">Accuracy: <span id="accuracy">0</span>%</div>
+            </div>
+
+            <div class="test-text">
+                <p id="sample-text">
+                    The quick brown fox jumps over the lazy dog. Type this text as fast and accurately as you can.
+                </p>
+            </div>
+
+            <div class="input-area">
+                <textarea id="input-text" placeholder="Start typing here..." rows="3"></textarea>
+            </div>
+
+            <div class="controls">
+                <button id="start-btn" class="btn">Start Test</button>
+                <button id="reset-btn" class="btn">Reset</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Typing Master</p>
+    </footer>
+</body>
+</html> 
